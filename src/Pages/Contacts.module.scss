@@ -1,0 +1,18 @@
+.contacts {
+  &__wrapper{
+    margin: 0 auto;
+    width: 70%;
+    min-height: calc(100vh - 241px);
+  }
+  &__cards {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    & a {
+      margin-right: 0 !important;
+    }
+    &_p {
+      margin-top: 20px;
+    }
+  }
+}
