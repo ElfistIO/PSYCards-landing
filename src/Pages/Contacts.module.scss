@@ -3,6 +3,9 @@
     margin: 0 auto;
     width: 70%;
     min-height: calc(100vh - 241px);
+    @media(max-width: 767px) {
+    width: 100%;
+    }
   }
   &__cards {
     margin: 0 auto;

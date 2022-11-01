@@ -27,6 +27,10 @@
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+    @media(max-width: 767px) {
+      flex-direction: column;
+      max-width: 100%;
+      }
     & a {
       margin-right: 0 !important;
     }

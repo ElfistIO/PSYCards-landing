@@ -26,8 +26,8 @@ export const Carousel = () => {
   };
   return (
     <div className="container center-align">
-      <h4>Приложение PSYCards</h4>
-      <h5>
+      <h4 className={styles.slider__header}>Приложение PSYCards</h4>
+      <h5 className={styles.slider__text}>
         для проведения психологических консультаций и трансформационных игр с
         применением метафорических ассоциативных карт в Онлайн-среде
       </h5>

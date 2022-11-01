@@ -7,7 +7,7 @@ export const AppCards = () => {
   return (
     <>
       <div className="center-align blue-grey darken-3">
-        <h5 className={styles.appCards__header}>Купить PSYCards</h5>
+        <h5 className={styles.appCards__header}>Версии приложения</h5>
       </div>
       <Row className={styles.appCards__cards}>
         <Col m={6} s={12} className="container">
@@ -25,7 +25,7 @@ export const AppCards = () => {
             <Divider />
             <ul>
               <li className={styles.appCards__cards_p}>
-                С возможностью загрузки собственных наборов
+                <b>С возможностью</b> загрузки собственных наборов
               </li>
               <li className={styles.appCards__cards_p}>
                 Возможность проведения консультаций
@@ -51,7 +51,7 @@ export const AppCards = () => {
             <Divider />
             <ul>
               <li className={styles.appCards__cards_p}>
-                Без возможности загрузки собственных наборов
+                <b>Без возможности</b> загрузки собственных наборов
               </li>
               <li className={styles.appCards__cards_p}>
                 Возможность проведения консультаций

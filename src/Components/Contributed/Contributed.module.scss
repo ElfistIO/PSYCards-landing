@@ -1,0 +1,26 @@
+.contributed {
+  &__header {
+    color: #fff;
+    padding: 15px 0;
+    margin: 0 auto;
+    max-width: 70%;
+    margin-bottom: 30px;
+  }
+  &__img {
+    
+    & img {
+      width: 100px !important;
+      height: 100px !important;
+      @media(max-width: 767px) {
+        display: none !important;
+      }
+    }
+    & li {
+      padding: 20px 20px !important;
+      padding-left: 135px !important;
+      @media(max-width: 767px) {
+        padding-left: 20px !important;
+      }
+    }
+  }
+}

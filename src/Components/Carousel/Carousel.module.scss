@@ -1,6 +1,5 @@
 .slider {
   &__wrapper {
-		min-height: 500px;
   margin-top: 30px;
   margin-bottom: 50px; 
 		& button {
@@ -17,4 +16,14 @@
     max-width: 100%;
     height: auto;
   }
+	&__header {
+		@media(max-width: 767px) {
+			font-size: 20px !important;
+		}
+	}
+	&__text {
+		@media(max-width: 767px) {
+			font-size: 15px !important;
+		}
+	}
 }

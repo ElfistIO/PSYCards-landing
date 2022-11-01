@@ -1,14 +1,24 @@
 import { Card, Col, Divider, Icon, Row } from "react-materialize";
-import { ModalWindow } from "../Components/Modal/Modal";
+import { Link, Outlet, useLocation } from "react-router-dom";
 import styles from "./Contacts.module.scss";
 
 export const Contacts = () => {
+  const location = useLocation();
   return (
     <div className={styles.contacts__wrapper}>
       <Row className={styles.contacts__cards}>
         <Col m={12} s={12} className="container">
           <Card
-            actions={[<ModalWindow key="1" />]}
+            actions={[
+              <Link
+                className="waves-effect waves-light btn modal-trigger"
+                to="modal"
+                state={{ background: location }}
+                key="1"
+              >
+                Запрос на сотрудничество
+              </Link>,
+            ]}
             className="blue-grey darken-1"
             closeIcon={<Icon>close</Icon>}
             textClassName="white-text"
@@ -54,6 +64,7 @@ export const Contacts = () => {
           </Card>
         </Col>
       </Row>
+      <Outlet />
     </div>
   );
 };
