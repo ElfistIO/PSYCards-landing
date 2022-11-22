@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/PSYCards-landing/static/css/main.fa8b2327.css",
-    "main.js": "/PSYCards-landing/static/js/main.68213a6b.js",
-    "static/media/Budyakova.jpg": "/PSYCards-landing/static/media/Budyakova.43b1325315692d953483.jpg",
-    "static/media/03.jpg": "/PSYCards-landing/static/media/03.a99359dfaaead69c5a47.jpg",
-    "static/media/05.jpg": "/PSYCards-landing/static/media/05.fea9f578df4922e451a1.jpg",
-    "static/media/06.jpg": "/PSYCards-landing/static/media/06.5e17c3dc3de18a0bf2a3.jpg",
-    "static/media/01.jpg": "/PSYCards-landing/static/media/01.f8e296f7c9de3cf4534e.jpg",
-    "static/media/02.jpg": "/PSYCards-landing/static/media/02.4e1c2cd3dfe8585a6f9d.jpg",
-    "static/media/Ilina.jpg": "/PSYCards-landing/static/media/Ilina.e8b177356964a0a8dc53.jpg",
-    "static/media/04.jpg": "/PSYCards-landing/static/media/04.dabc4d1e1730d76e1db0.jpg",
-    "static/media/Goloborodova.jpg": "/PSYCards-landing/static/media/Goloborodova.3a20fc2f599a686fa351.jpg",
-    "static/media/logo-head.png": "/PSYCards-landing/static/media/logo-head.5be80d11112e481713f2.png",
-    "static/media/slick.svg": "/PSYCards-landing/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/PSYCards-landing/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/PSYCards-landing/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/PSYCards-landing/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/PSYCards-landing/index.html",
-    "main.fa8b2327.css.map": "/PSYCards-landing/static/css/main.fa8b2327.css.map",
-    "main.68213a6b.js.map": "/PSYCards-landing/static/js/main.68213a6b.js.map"
+    "main.css": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/css/main.5d2a5ccf.css",
+    "main.js": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/js/main.1a4354b9.js",
+    "static/media/Budyakova.jpg": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/Budyakova.43b1325315692d953483.jpg",
+    "static/media/03.jpg": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/03.a99359dfaaead69c5a47.jpg",
+    "static/media/05.jpg": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/05.fea9f578df4922e451a1.jpg",
+    "static/media/06.jpg": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/06.5e17c3dc3de18a0bf2a3.jpg",
+    "static/media/01.jpg": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/01.f8e296f7c9de3cf4534e.jpg",
+    "static/media/02.jpg": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/02.4e1c2cd3dfe8585a6f9d.jpg",
+    "static/media/Ilina.jpg": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/Ilina.e8b177356964a0a8dc53.jpg",
+    "static/media/04.jpg": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/04.dabc4d1e1730d76e1db0.jpg",
+    "static/media/Goloborodova.jpg": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/Goloborodova.3a20fc2f599a686fa351.jpg",
+    "static/media/logo-head.png": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/logo-head.5be80d11112e481713f2.png",
+    "static/media/slick.svg": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/index.html",
+    "main.5d2a5ccf.css.map": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/css/main.5d2a5ccf.css.map",
+    "main.1a4354b9.js.map": "//mak-online.ru/wp-content/reactpress/apps/psy-cards-landing/build/static/js/main.1a4354b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa8b2327.css",
-    "static/js/main.68213a6b.js"
+    "static/css/main.5d2a5ccf.css",
+    "static/js/main.1a4354b9.js"
   ]
 }
