@@ -30,7 +30,7 @@ export const LINKS = [
     ),
   },
   {
-    link: "mailto:missty13@yandex.ru",
+    link: "mailto:info@mak-online.ru",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,7 @@ export const LINKS = [
     ),
   },
   {
-    link: "https://api.whatsapp.com/send?phone=7919117559",
+    link: "https://api.whatsapp.com/send?phone=79191175599",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@ export const LINKS = [
     ),
   },
   {
-    link: "https://telegram.me/+7919117559",
+    link: "https://telegram.me/+79191175599",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +165,7 @@ export const LINKS = [
     ),
   },
   {
-    link: "tel:+7919117559",
+    link: "tel:+79191175599",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

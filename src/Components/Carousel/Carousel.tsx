@@ -11,6 +11,8 @@ import carouselImage03 from "../../Assets/03.jpg";
 import carouselImage04 from "../../Assets/04.jpg";
 import carouselImage05 from "../../Assets/05.jpg";
 import carouselImage06 from "../../Assets/06.jpg";
+import carouselImage001 from "../../Assets/001.jpg";
+import carouselImage002 from "../../Assets/002.jpg";
 
 export const Carousel = () => {
   const settings = {
@@ -33,6 +35,20 @@ export const Carousel = () => {
       </h5>
       <div className={styles.slider__wrapper}>
         <Slider {...settings}>
+          <div>
+            <img
+              src={carouselImage001}
+              alt={"001"}
+              className={styles.slider__img}
+            />
+          </div>
+          <div>
+            <img
+              src={carouselImage002}
+              alt={"002"}
+              className={styles.slider__img}
+            />
+          </div>
           <div>
             <img
               src={carouselImage01}

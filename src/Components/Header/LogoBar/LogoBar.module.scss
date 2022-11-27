@@ -8,6 +8,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    button {
+      display:flex;
+      align-items: center;
+      svg {
+        padding-right: 10px;
+      }
+    }
     @media(max-width: 767px) {
       flex-direction: column;
       p {

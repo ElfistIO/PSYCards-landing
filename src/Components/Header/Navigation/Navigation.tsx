@@ -1,4 +1,4 @@
-import { Icon, Navbar, NavItem } from "react-materialize";
+import { Icon, Navbar } from "react-materialize";
 import { Link } from "react-router-dom";
 
 import styles from "./Navigation.module.scss";
@@ -10,7 +10,17 @@ export const Navigation = () => {
       alignLinks="left"
       id="mobile-nav"
       centerChildren
-      menuIcon={<Icon>menu</Icon>}
+      menuIcon={
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="#ffffff"
+          width="36"
+          height="36"
+        >
+          <path d="M5 7h14c.6 0 1-.4 1-1s-.4-1-1-1H5c-.6 0-1 .4-1 1s.4 1 1 1zm0 6h14c.6 0 1-.4 1-1s-.4-1-1-1H5c-.6 0-1 .4-1 1s.4 1 1 1zm0 6h14c.6 0 1-.4 1-1s-.4-1-1-1H5c-.6 0-1 .4-1 1s.4 1 1 1z" />
+        </svg>
+      }
       options={{
         draggable: true,
         edge: "left",
@@ -20,9 +30,27 @@ export const Navigation = () => {
       }}
     >
       <Link to="/">Главная</Link>
-      <Link to="/buy">Купить приложение PSYCards</Link>
-      <Link to="/buy">Купить наборы для PSYCards</Link>
-      <Link to="/buy">Купить игры для PSYCards</Link>
+      <a
+        href="http://mak-online.ru/product-category/psycards/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Купить приложение PSYCards
+      </a>
+      <a
+        href="http://mak-online.ru/product-category/modul/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Купить наборы для PSYCards
+      </a>
+      <a
+        href="http://mak-online.ru/product-category/igry-na-psycards/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Купить игры для PSYCards
+      </a>
       <Link to="/contacts">Контакты</Link>
     </Navbar>
   );

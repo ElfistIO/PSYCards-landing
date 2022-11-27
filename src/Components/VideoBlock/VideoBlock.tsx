@@ -1,7 +1,7 @@
 import { Collapsible, CollapsibleItem } from "react-materialize";
 
 export const VideoBlock = () => {
-  const src = `${"https://www.youtube.com/embed/y8oIry02X0I"}`;
+  const src = `${"https://www.youtube.com/embed/Obz9lpdDPDQ"}`;
   const header = <p>Новости проекта:</p>;
   return (
     <>

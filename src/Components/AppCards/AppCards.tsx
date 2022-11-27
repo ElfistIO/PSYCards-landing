@@ -13,9 +13,12 @@ export const AppCards = () => {
         <Col m={6} s={12} className="container">
           <Card
             actions={[
-              <Link key="1" to="/">
+              <a
+                href="https://mak-online.ru/shop/psycards/paket-psycards-pro/"
+                key="1"
+              >
                 Купить версию PRO
-              </Link>,
+              </a>,
             ]}
             className="blue-grey darken-1 center-align"
             closeIcon={<Icon>close</Icon>}
@@ -39,9 +42,12 @@ export const AppCards = () => {
         <Col m={6} s={12} className="container">
           <Card
             actions={[
-              <Link key="2" to="/">
+              <a
+                href="https://mak-online.ru/shop/psycards/paket-psycards-lite/"
+                key="2"
+              >
                 Купить версию Lite
-              </Link>,
+              </a>,
             ]}
             className="blue-grey darken-1 center-align"
             closeIcon={<Icon>close</Icon>}

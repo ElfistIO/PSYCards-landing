@@ -8,6 +8,10 @@
     & > div {
       display: flex;
       justify-content: center;
+      & > a {
+        display: flex;
+        align-items: center;
+      }
     }
     & ul {
       & ul {
